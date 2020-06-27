@@ -5,11 +5,13 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome','BlackHanSans';
   src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  src: url('../fonts/BlackHanSans-Regular.ttf');
   font-weight: normal;
   font-style: normal;
+  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
 }
 .fa {
   display: inline-block;
